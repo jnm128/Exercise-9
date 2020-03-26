@@ -15,7 +15,7 @@
     </div>
 
   <div id="box02">
-      <p>Text!</p>
+     <p>Text!</p>
     </div>
 
   <div id="box03">
