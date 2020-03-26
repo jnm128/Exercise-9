@@ -22,7 +22,7 @@
       <p>Text!</p>
     </div>
 
-   div id="box04">
+  <div id="box04">
       <p>Text!</p>
     </div>
 
