@@ -1,0 +1,111 @@
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+/* Do not touch the div CSS block! */
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
+/* Add your styles for each box below this line */
+
+#box01 {
+  background-color:rgba(28,104,167,1);
+  padding-top: 20px;
+  margin-right: 20px;
+}
+/*
+    Also:
+
+      margin: 0 20px 0 0;
+
+    and...
+
+      padding: 20px 0 0 0;
+  */
+
+#box02 background-color: rgba(28,104,167,0.8);
+
+  border-left: 2px solid rgb(28,104,167);
+  border-right: 2px solid rgb(28,104,167);
+
+  margin-top: 20px;
+  margin-right: 20px;
+
+  padding-bottom: 20px;
+
+  /*
+    Also:
+
+      margin: 20px 20px 0 0;
+
+    and...
+
+      padding: 0 0 20px 0;
+
+    or...
+
+      padding: 0 0 20px;
+ */
+}
+
+#box03 {
+  background-color: rgba(28,104,167,0.6);
+
+  border-top: 2px solid rgb(28,104,167);
+  border-bottom: 2px solid rgb(28,104,167);
+
+  margin-right: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /*
+    Also:
+
+      margin: 0 20px 0 0;
+
+    and...
+
+      padding: 20px 0 20px 0;
+
+    or...
+
+      padding: 20px 0;
+
+  */
+}
+
+#box04 {
+  background-color: rgba(28,104,167,0.4);
+
+  border-bottom: 2px solid rgba(28,104,167,1);
+  border-left: 2px solid rgba(28,104,167,1);
+
+  padding-right: 20px;
+  padding-left: 20px;
+
+  /*
+    Also:
+
+    padding: 0 20px;
+  */
+
+}
+
+/*
+  Another consideration: rather than apply margin-right individually on
+  box01, box02 and box03, what about:
+
+  #box01,
+  #box02,
+  #box03 {
+    margin-right: 20px;
+  }
+
+  :)
+
+*/
